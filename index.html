@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AtomTech - Tecnologia e Automação Inteligente</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <a href="#" class="logo">
+        <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="48" stroke="#007BFF" stroke-width="4"/>
+          <path d="M30 70 L50 30 L70 70 Z" fill="#007BFF"/>
+        </svg>
+        <span>AtomTech</span>
+      </a>
+      <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Transformamos negócios com tecnologia e automação inteligente.</h1>
+      <a href="https://wa.me/5568992493742?text=Ol%C3%A1%2C%20fiquei%20interessado%20nos%20seus%20servi%C3%A7os!" target="_blank" class="btn btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> Fale conosco no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section id="servicos" class="container servicos">
+    <h2>Serviços</h2>
+    <div class="servicos-lista">
+      <div class="servico-card">
+        <i class="fas fa-laptop-code fa-3x"></i>
+        <h3>Criação de Sites para Empresas</h3>
+        <p>Desenvolvemos sites responsivos e modernos para todos os tipos de negócios.</p>
+      </div>
+      <div class="servico-card">
+        <i class="fas fa-robot fa-3x"></i>
+        <h3>Automação com IA</h3>
+        <p>Chatbots inteligentes trabalhando 24h para você, melhorando o atendimento e vendas.</p>
+      </div>
+      <div class="servico-card">
+        <i class="fas fa-file-invoice-dollar fa-3x"></i>
+        <h3>Criação de Páginas de Vendas</h3>
+        <p>Páginas otimizadas para conversão, ideais para lançamentos e promoções.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="diferenciais" class="container diferenciais">
+    <h2>Por que escolher a AtomTech?</h2>
+    <ul>
+      <li>Atendimento humanizado: o cliente nem percebe que está falando com uma IA.</li>
+      <li>Suporte por 30 dias após a entrega do produto.</li>
+      <li>Serviços personalizados: você pode solicitar todas as alterações que desejar.</li>
+    </ul>
+  </section>
+
+  <section id="depoimentos" class="container depoimentos">
+    <h2>Depoimentos</h2>
+    <div class="depoimentos-lista">
+      <blockquote>
+        <p>"A AtomTech revolucionou o atendimento da nossa empresa com um chatbot que nunca dorme!"</p>
+        <cite>- João Silva, CEO da Tech Solutions</cite>
+      </blockquote>
+      <blockquote>
+        <p>"O site ficou lindo, funcional e ainda recebi suporte rápido após o lançamento."</p>
+        <cite>- Maria Oliveira, Empreendedora</cite>
+      </blockquote>
+      <blockquote>
+        <p>"Serviço personalizado e atendimento super atencioso. Recomendo muito!"</p>
+        <cite>- Carlos Mendes, Diretor Comercial</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="blog" class="container blog">
+    <h2>Blog & Dicas</h2>
+    <article>
+      <h3>Por que investir em automação para sua empresa?</h3>
+      <p>Descubra como a automação pode aumentar a eficiência e reduzir custos.</p>
+      <a href="#" class="btn-leia-mais">Leia mais</a>
+    </article>
+    <article>
+      <h3>Como um site pode aumentar suas vendas?</h3>
+      <p>Entenda a importância de uma presença digital forte para o seu negócio.</p>
+      <a href="#" class="btn-leia-mais">Leia mais</a>
+    </article>
+    <article>
+      <h3>Chatbots: o atendimento do futuro</h3>
+      <p>Veja como os chatbots estão revolucionando o relacionamento com clientes.</p>
+      <a href="#" class="btn-leia-mais">Leia mais</a>
+    </article>
+  </section>
+
+  <section id="contato" class="container contato">
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:autobyteserver67@gmail.com">autobyteserver67@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/atomtech2025/" target="_blank">@atomtech2025</a></p>
+    <p>Atendimento online</p>
+
+    <form id="form-contato" action="https://formspree.io/f/myyljplk" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <button id="btn-whatsapp-float" aria-label="Fale conosco no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </button>
+
+  <footer>
+    <p>© 2025 AtomTech - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
